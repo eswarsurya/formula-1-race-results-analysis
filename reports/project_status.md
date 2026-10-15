@@ -1,18 +1,13 @@
 # Project Status
 
-Formula 1 Race Analytics is an active work-in-progress project. It is intentionally included on GitHub to show continuous learning, data refresh scripting, and dashboard development around a live sports analytics topic.
+**Status: Completed.** The published scope is the race-results refresh, curated analytics outputs, summary report, and chart assets in this repository.
 
-## Completed So Far
+## Delivered
 
-- Created a FastF1 refresh script for latest completed race output.
-- Prepared latest race results CSV.
-- Organised historical Formula 1 tables for dashboard modelling.
-- Prepared output summaries for latest race results, race counts, result statuses, and pit-stop analysis.
-- Started Power BI dashboard direction for driver, constructor, and race performance analysis.
+- FastF1 refresh script for the latest completed race
+- Latest race results and podium/points outputs
+- Season race counts and result-status summaries
+- Pit-stop analysis output
+- Dataset inventory, analysis summary, and SVG visual assets
 
-## Next Improvements
-
-- Add dashboard screenshots after the Power BI layout is polished.
-- Add driver and constructor trend pages.
-- Add a notebook version of the analysis for easier GitHub review.
-- Add automated refresh notes and schedule options.
+The broader [Formula 1 Analytics pipeline](https://github.com/eswarsurya/formula1-analytics) is a separate completed project covering reusable ETL and race-performance analysis.

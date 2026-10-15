@@ -1,18 +1,11 @@
-# Dashboard Evidence
+# Dashboard and Visualization Evidence
 
-The local project includes a Power BI dashboard file: `formula1_dashboard.pbix`.
+The repository publishes static chart assets in `assets/` and dashboard-ready CSV outputs in `outputs/`. Together they summarize race results, points, driver and constructor performance, qualifying context, and pit-stop analysis.
 
-The dashboard is being developed around driver performance, race results, constructor standings, qualifying context, pit stops, and latest race updates. Because the file is a binary Power BI workbook, this repository currently documents the dashboard direction using data outputs and project notes.
+## Published evidence
 
-## Planned Dashboard Pages
+- Dataset inventory: `assets/dataset_inventory.svg`
+- Latest race points: `assets/latest_race_points.svg`
+- Latest race and analysis tables: `outputs/`
 
-- Latest race results and points
-- Driver performance trends
-- Constructor standings
-- Qualifying vs race outcomes
-- Pit stop performance
-- Season comparison
-
-## Public Sharing Note
-
-The dashboard can be uploaded later after checking file size and embedded data suitability.
+The public repository contains these static visuals and data outputs; it does not include a Power BI workbook or hosted interactive dashboard.
